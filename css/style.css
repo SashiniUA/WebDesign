@@ -165,7 +165,7 @@ ul li a:hover {
 }
 
 .cn:hover {
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 .content span {
@@ -184,4 +184,85 @@ ul li a:hover {
     border-radius: 10px;
     padding: 25px;
 
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(84, 155, 145);
+    font-size: 22px;
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgb(214, 151, 198);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: aliceblue;
+    font-family: Arial;
+
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: rgb(214, 151, 198);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: rebeccapurple;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: rgb(214, 151, 198);
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
 }
